@@ -3,7 +3,7 @@ import './Pokemon.css'
 
 function Pokemon({name, image, id}) {
   return (
-    <Link className="pokemon Link" to={`/pokemon/${id}`}>
+    <Link className="pokemon Link" to={`/Pokedex/${id}`}>
       <div>
         <img className='pokemonImage' src={image} alt={name} />
       </div>

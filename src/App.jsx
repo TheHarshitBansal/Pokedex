@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <h1 className="main-heading">
-        <Link className='headingLink Link' to='/pokemon'>Pokedex</Link>
+        <Link className='headingLink Link' to='/Pokedex'>Pokedex</Link>
         </h1>
       <CustomRoutes/>
     </>
